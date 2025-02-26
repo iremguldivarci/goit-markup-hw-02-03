@@ -21,6 +21,11 @@ div {
 *::after {
     box-sizing: unset;
 }
+
+a {
+    display: inline-block;
+}
+
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -152,8 +157,6 @@ div {
     border: 0;
     padding: 0;
     white-space: nowrap;
-    clip-path: inset(100);
-    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 
@@ -276,9 +279,6 @@ div {
     padding: 100px 0;
 }
 
-.footer-box {
-    display: inline-block;
-}
 
 .footer-logo {
     margin-bottom: 16px;
