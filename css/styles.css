@@ -12,6 +12,10 @@ img {
     display: block;
 }
 
+div {
+    display: flex;
+}
+
 *,
 *::before,
 *::after {
