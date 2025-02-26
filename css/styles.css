@@ -22,10 +22,6 @@ div {
     box-sizing: unset;
 }
 
-a {
-    display: inline-block;
-}
-
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -157,6 +153,8 @@ a {
     border: 0;
     padding: 0;
     white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 
@@ -275,10 +273,10 @@ a {
 /* Footer */
 
 .footer {
+    display: inline-block;
     background-color: #2e2f42;
     padding: 100px 0;
 }
-
 
 .footer-logo {
     margin-bottom: 16px;
