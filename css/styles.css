@@ -210,7 +210,7 @@ img {
 
 .three-list {
     background-color: #FFFFFF;
-    width: 264px;
+    width: calc((100% - 72px) / 4);
     height: 104px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
