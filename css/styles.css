@@ -251,8 +251,7 @@ img {
 }
 
 .four-list {
-    width: 264px;
-    height: 104px;;
+    width: calc((100% - 48px) / 3);
 }
 
 .app-category-box {
