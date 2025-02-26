@@ -12,10 +12,6 @@ img {
     display: block;
 }
 
-div {
-    display: flex;
-}
-
 *,
 *::before,
 *::after {
@@ -285,7 +281,7 @@ div {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: flex;
+    display: inline-block;
 }
 
 .footer-span {
