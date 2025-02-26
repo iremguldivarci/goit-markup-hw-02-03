@@ -12,10 +12,6 @@ img {
     display: block;
 }
 
-div {
-    display: flex;
-}
-
 *,
 *::before,
 *::after {
@@ -32,6 +28,10 @@ div {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
+}
+
+.header-box {
+    display: flex;
 }
 
 .nav-menu {
