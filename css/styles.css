@@ -273,12 +273,12 @@ div {
 /* Footer */
 
 .footer {
-    display: inline-block;
     background-color: #2e2f42;
     padding: 100px 0;
 }
 
 .footer-logo {
+    display: block;
     margin-bottom: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
