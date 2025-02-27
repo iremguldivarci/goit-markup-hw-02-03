@@ -211,7 +211,7 @@ img {
 .three-list {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
-    height: 104px;
+    height: 380px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 4px;
@@ -251,7 +251,8 @@ img {
 }
 
 .four-list {
-    width: calc((100% - 72px) / 4);
+    width: 360px;
+    height: 420px;
 }
 
 .app-category-box {
